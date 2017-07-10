@@ -1,0 +1,62 @@
+body{
+  color: black;
+  background-color: seashell;
+}
+.first-h1{
+  color: hsl(10, 69%, 32%);
+  margin-top: -8px;
+  margin-bottom: -45px;
+  margin-left: -8px;
+  margin-right: -8px;
+  background-color: hsl(14, 24%, 66%);
+  text-align: center;
+  font-family: gabriola;
+  font-size: 50px
+}
+/* Start of the Nav Bar */
+.main-nav{
+  padding: 2px;
+  margin-bottom: 54px;
+}
+.nav-list{
+  list-style: none;
+  padding: 0px;
+  float: right;
+}
+.nav-item{
+  float: left;
+  margin-left: 15px;
+}
+.nav-link{
+  text-decoration: none;
+  color: hsl(10, 69%, 32%)''
+}
+/* End of the Nav Bar*/
+
+/* Start of the INFO bar */
+.info-div{
+  border: 3px solid hsla(0, 0%, 5%, 0.59);
+  float: left;
+}
+.info-h2{
+   text-align: center;
+}
+.info-p{
+  margin: 10px;
+  text-align: center;
+}
+/* End of the INFO bar */
+
+/* Start of the EVENT bar */
+.event-div{
+  border: 3px solid hsla(0, 0%, 5%, 0.59);
+  float: right;
+
+}
+.event-h2{
+  text-align: center;
+}
+.event-p{
+  margin-left: 5px;
+}
+/* End of the EVENT bar */
