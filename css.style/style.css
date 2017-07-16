@@ -20,7 +20,7 @@ body {
 
 .main-nav {
   padding: 2px;
-  margin-bottom: 54px;
+  margin-bottom: 42px;
 }
 
 .nav-list {
@@ -36,11 +36,27 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: hsl(10, 69%, 32%)''
+  color: hsl(10, 69%, 32%);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #c8655b;
 }
 
 
 /* End of the Nav Bar*/
+
+.eventandinfo-container {
+  background-image: url("../image/frontbuilding.jpg");
+  height: 576px;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-size: 100%;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 0px;
+}
 
 
 /* Start of the INFO bar */
@@ -48,6 +64,9 @@ body {
 .info-div {
   border: 3px solid hsla(0, 0%, 5%, 0.59);
   float: left;
+  background-color: #BD9D93;
+  opacity: 0.78;
+  margin-top: 20px;
 }
 
 .info-h2 {
@@ -55,8 +74,8 @@ body {
 }
 
 .info-p {
-  margin: 10px;
   text-align: center;
+  margin-left: 26px;
 }
 
 
@@ -68,6 +87,11 @@ body {
 .event-div {
   border: 3px solid hsla(0, 0%, 5%, 0.59);
   float: right;
+  margin-left: 20px;
+  margin-right: -196px;
+  background-color: #BD9D93;
+  opacity: 0.78;
+  margin-top: 20px;
 }
 
 .event-h2 {
@@ -80,3 +104,21 @@ body {
 
 
 /* End of the EVENT bar */
+
+
+/* Start of Footer */
+
+.footer-container {
+  border: 2px solid black;
+}
+
+.footer-contact {
+  text-align: center;
+}
+
+.footer-icons fa {
+  font-size: 20px color: blue;
+}
+
+
+/* End of Footer */
