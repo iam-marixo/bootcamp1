@@ -1,6 +1,8 @@
 body {
   color: black;
-  background-color: seashell;
+  background-color: beige;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .first-h1 {
@@ -51,7 +53,7 @@ body {
   background-image: url("../image/frontbuilding.jpg");
   height: 576px;
   background-repeat: no-repeat;
-  /*background-size: cover;*/
+  background-size: cover;
   background-size: 100%;
   margin-left: -8px;
   margin-right: -8px;
@@ -102,6 +104,22 @@ body {
   margin-left: 5px;
 }
 
+.home-event-button {
+  background-color: hsl(10, 69%, 32%);
+  border-radius: 65px;
+  content: "";
+  display: block;
+  clear: both;
+  float: right;
+  padding-left;
+  margin-right: 238px;
+}
+
+.home-event-button:hover {
+  text-decoration: underline;
+  color: #c8655b;
+}
+
 
 /* End of the EVENT bar */
 
@@ -109,16 +127,136 @@ body {
 /* Start of Footer */
 
 .footer-container {
-  border: 2px solid black;
-}
-
-.footer-contact {
+  height: 50px;
+  clear: both;
   text-align: center;
+  margin-top: 0px;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-.footer-icons fa {
-  font-size: 20px color: blue;
+.social-media-container {
+  width: 15%;
+  margin-top: 25px;
+}
+
+.social-media-container .fa {
+  font-size: 18px;
+  color: hsl(10, 69%, 32%);
+  margin-left: 15%;
+}
+
+.social-media-container .fa:hover {
+  color: #c8655b;
+  text-decoration: underline;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.copyright {
+  display: inline-block;
+  font-size: 8px;
+  margin-top: 30px;
 }
 
 
 /* End of Footer */
+
+
+/***** Begin of Event Page *****/
+
+
+/* Start of Calendar */
+
+ul {
+  list-style-type: none;
+}
+
+
+/* Month header */
+
+.month {
+  padding: 35px;
+  width: 100%;
+  background: #1abc9c;
+}
+
+
+/* Month list */
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+/* Previous button inside month header */
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+
+/* Next button */
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+
+/* Weekdays (Mon-Sun) */
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+
+/* Days (1-31) */
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
+}
+
+
+/* End of Calendar */
+
+
+/***** End of Event Page *****/
